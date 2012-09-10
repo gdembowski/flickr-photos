@@ -3,6 +3,10 @@
   <head>
     <title>Photos</title>
     <link href="photos.css" rel="stylesheet" type="text/css" />
+    <link href="font-awesome.css" rel="stylesheet" type="text/css" />
+	<!--[if IE 7]>
+		<link href="font-awesome-ie7.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
   </head>
   <body>
     <h1>Photos</h1>
@@ -14,7 +18,11 @@
     <script>
     setupPhotos(['squirrel', 'cat'], function (err, result) {
         if (err) { return console.error(err); }
+		
+		
+		
     });
+
     </script>
   </body>
 </html>
